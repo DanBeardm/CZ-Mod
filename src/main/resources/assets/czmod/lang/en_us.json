@@ -1,0 +1,18 @@
+{
+  "itemGroup.czmod.cz_group": "CZ Items",
+
+  "item.czmod.hp_iv_plus_one": "HP IV +1",
+  "item.czmod.attack_iv_plus_one": "Attack IV +1",
+  "item.czmod.defence_iv_plus_one": "Defence IV +1",
+  "item.czmod.special_attack_iv_plus_one": "Sp. Atk IV +1",
+  "item.czmod.special_defence_iv_plus_one": "Sp. Def IV +1",
+  "item.czmod.speed_iv_plus_one": "Speed IV +1",
+
+  "item.czmod.hp_iv_max": "HP IV Max",
+  "item.czmod.attack_iv_max": "Attack IV Max",
+  "item.czmod.defence_iv_max": "Defence IV Max",
+  "item.czmod.special_attack_iv_max": "Sp. Atk IV Max",
+  "item.czmod.special_defence_iv_max": "Sp. Def IV Max",
+  "item.czmod.speed_iv_max": "Speed IV Max"
+
+}

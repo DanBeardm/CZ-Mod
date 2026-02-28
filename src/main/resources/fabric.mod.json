@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "czmod",
+  "version": "${version}",
+  "name": "CZ-Mod",
+  "description": "Custom Mod Adding Items exclusive to CobbleZero",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/czmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.OlliesBrother.CzMod.client.CzModClient"
+    ],
+    "main": [
+      "org.OlliesBrother.CzMod.CzMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}",
+    "cobblemon": ">=1.7.3"
+  }
+}
