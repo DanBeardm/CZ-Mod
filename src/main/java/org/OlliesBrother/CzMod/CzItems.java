@@ -7,6 +7,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import org.OlliesBrother.CzMod.item.IvMaxItem;
 import org.OlliesBrother.CzMod.item.IvPlusOneItem;
+import org.OlliesBrother.CzMod.item.ShinyToggleItem;
 
 public class CzItems {
     public static final Item HP_IV_PLUS_ONE = register("hp_iv_plus_one",
@@ -45,6 +46,10 @@ public class CzItems {
     public static final Item SPE_IV_MAX = register("speed_iv_max",
             new IvMaxItem(new Item.Settings().maxCount(64), Stats.SPEED, "Speed"));
 
+    public static final Item SHINIFIER = register(
+            "shinifier",
+            new ShinyToggleItem(new Item.Settings().maxCount(64))
+    );
     private static Item register(String id, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(CzMod.MOD_ID, id), item);
     }

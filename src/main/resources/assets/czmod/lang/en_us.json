@@ -1,5 +1,5 @@
 {
-  "itemGroup.czmod.cz_group": "CZ Items",
+  "itemGroup.czmod.cz_group": "CZ Mod",
 
   "item.czmod.hp_iv_plus_one": "HP IV +1",
   "item.czmod.attack_iv_plus_one": "Attack IV +1",
@@ -13,6 +13,7 @@
   "item.czmod.defence_iv_max": "Defence IV Max",
   "item.czmod.special_attack_iv_max": "Sp. Atk IV Max",
   "item.czmod.special_defence_iv_max": "Sp. Def IV Max",
-  "item.czmod.speed_iv_max": "Speed IV Max"
+  "item.czmod.speed_iv_max": "Speed IV Max",
 
+  "item.czmod.shinifier": "Shinifier"
 }

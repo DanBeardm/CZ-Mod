@@ -32,6 +32,9 @@ public final class CzItemGroups {
                         entries.add(CzItems.SPA_IV_MAX);
                         entries.add(CzItems.SPD_IV_MAX);
                         entries.add(CzItems.SPE_IV_MAX);
+
+                        // Shinifier
+                        entries.add(CzItems.SHINIFIER);
                     })
                     .build()
     );
