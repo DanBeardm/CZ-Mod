@@ -35,6 +35,8 @@ public final class CzItemGroups {
 
                         // Shinifier
                         entries.add(CzItems.SHINIFIER);
+
+                        entries.add(CzBlocks.ELEVATOR_ITEM);
                     })
                     .build()
     );

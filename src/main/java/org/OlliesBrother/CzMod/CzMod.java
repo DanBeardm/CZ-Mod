@@ -8,6 +8,8 @@ public class CzMod implements ModInitializer {
     @Override
     public void onInitialize() {
         CzItems.init();
+        CzBlocks.init();
+        CzNetworking.init();
         CzItemGroups.init();
     }
 }
