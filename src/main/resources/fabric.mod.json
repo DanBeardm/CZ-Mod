@@ -13,6 +13,9 @@
     "client": [
       "org.OlliesBrother.CzMod.client.CzModClient"
     ],
+    "fabric-datagen": [
+      "org.OlliesBrother.CzMod.CzModDataGenerator"
+    ],
     "main": [
       "org.OlliesBrother.CzMod.CzMod"
     ]

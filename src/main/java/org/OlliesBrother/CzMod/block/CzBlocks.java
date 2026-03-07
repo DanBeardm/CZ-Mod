@@ -32,14 +32,9 @@ public final class CzBlocks {
             new BlockItem(ELEVATOR, new Item.Settings())
     );
 
-    public static final Block FIGURE = registerBlock("figure",
+    public static final Block FIGURE = registerBlock("olliesbrother_figure",
             new FigureBlock(AbstractBlock.Settings.create().nonOpaque()));
 
-    public static final Item FIGURE_ITEM = Registry.register(
-            Registries.ITEM,
-            Identifier.of(CzMod.MOD_ID, "figure"),
-            new BlockItem(FIGURE, new Item.Settings())
-    );
 
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, Identifier.of(CzMod.MOD_ID, name), block);

@@ -39,7 +39,7 @@ public final class CzItemGroups {
                         entries.add(CzItems.SHINIFIER);
 
                         entries.add(CzBlocks.ELEVATOR_ITEM);
-                        entries.add(CzBlocks.FIGURE_ITEM);
+                        entries.add(CzBlocks.FIGURE);
                     })
                     .build()
     );
