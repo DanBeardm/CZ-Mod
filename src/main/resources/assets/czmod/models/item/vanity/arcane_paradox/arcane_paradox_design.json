@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "czmod:item/arcane_paradox/arcane_paradox_design"
+  }
+}
+

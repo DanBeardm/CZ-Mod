@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "czmod:block/figure",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "czmod:block/figure"
+    },
+    "facing=south": {
+      "model": "czmod:block/figure",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "czmod:block/figure",
+      "y": 270
+    }
+  }
+}

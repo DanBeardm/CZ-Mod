@@ -1,0 +1,70 @@
+{
+  "model": "czmod:nexus/nexus_design",
+  "type": "sellable",
+  "styles": {
+    "nexus_sword": [
+      {
+        "tag": "minecraft:swords",
+        "assets": {
+          "default": "czmod:nexus/tools/sword"
+        }
+      }
+    ],
+    "nexus_pickaxe": [
+      {
+        "tag": "minecraft:pickaxes",
+        "assets": {
+          "default": "czmod:nexus/tools/pickaxe"
+        }
+      }
+    ],
+    "nexus_axe": [
+      {
+        "tag": "minecraft:axes",
+        "assets": {
+          "default": "czmod:nexus/tools/axe"
+        }
+      }
+    ],
+    "nexus_shovel": [
+      {
+        "tag": "minecraft:shovels",
+        "assets": {
+          "default": "czmod:nexus/tools/shovel"
+        }
+      }
+    ],
+    "nexus_hoe": [
+      {
+        "tag": "minecraft:hoes",
+        "assets": {
+          "default": "czmod:nexus/tools/hoe"
+        }
+      }
+    ],
+    "nexus_spear": [
+      {
+        "tag": "minecraft:spears",
+        "assets": {
+          "default": "czmod:nexus/tools/spear"
+        }
+      }
+    ],
+    "nexus_mace": [
+      {
+        "item": "minecraft:mace",
+        "assets": {
+          "default": "czmod:nexus/tools/mace"
+        }
+      }
+    ],
+    "nexus_trident": [
+      {
+        "item": "minecraft:trident",
+        "assets": {
+          "default": "czmod:nexus/tools/trident"
+        }
+      }
+    ]
+  }
+}

@@ -1,30 +1,30 @@
 {
-  "model": "czmod:moonswift_design",
+  "model": "czmod:moonswift/moonswift_design",
   "type": "sellable",
   "styles": {
     "moonswift_sword": [
       {
         "item": "minecraft:iron_sword",
         "assets": {
-          "default": "czmod:moonswift_blade"
+          "default": "czmod:moonswift/moonswift_blade"
         }
       },
       {
         "item": "minecraft:golden_sword",
         "assets": {
-          "default": "czmod:moonswift_blade"
+          "default": "czmod:moonswift/moonswift_blade"
         }
       },
       {
         "item": "minecraft:diamond_sword",
         "assets": {
-          "default": "czmod:moonswift_blade"
+          "default": "czmod:moonswift/moonswift_blade"
         }
       },
       {
         "item": "minecraft:netherite_sword",
         "assets": {
-          "default": "czmod:moonswift_blade"
+          "default": "czmod:moonswift/moonswift_blade"
         }
       }
     ]

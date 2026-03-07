@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "czmod:item/void_king/void_king_design"
+  }
+}
+

@@ -1,5 +1,6 @@
 {
-  "itemGroup.czmod.cz_group": "CZ Mod",
+  "itemGroup.czmod.cz_group": "CobbleZero Mod",
+  "itemGroup.czmod.cz_figures": "CobbleZero Figures",
 
   "item.czmod.hp_iv_plus_one": "HP IV +1",
   "item.czmod.attack_iv_plus_one": "Attack IV +1",
@@ -28,5 +29,9 @@
   "design.czmod.infused_hellbound_design": "Infused Hellbound Design",
   "design.czmod.infused_hellbound_design.infused_hellbound_sword": "Infused Hellbound Blade",
   "design.czmod.moonswift_design": "Moon Swift Design",
-  "design.czmod.moonswift_design.moonswift_sword": "Moon Swift Blade"
+  "design.czmod.moonswift_design.moonswift_sword": "Moon Swift Blade",
+
+  "design.czmod.nexus_design": "Nexus Design",
+  "design.czmod.nexus_design.nexus_sword": "Nexus Sword",
+  "design.czmod.nexus_design.nexus_pickaxe": "Nexus Pickaxe"
 }
