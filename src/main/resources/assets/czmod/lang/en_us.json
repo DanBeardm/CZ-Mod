@@ -17,21 +17,74 @@
   "item.czmod.speed_iv_max": "Speed IV Max",
 
   "item.czmod.shinifier": "Shinifier",
+  "item.czmod.axo_crate": "Axo's Gift Box",
+  "item.czmod.nexus_key": "Nexus Key",
+  "item.czmod.carnivorous_key": "Carnivorous Key",
 
   "block.czmod.elevator": "Elevator",
+  "block.czmod.olliesbrother_figure": "OlliesBrother Figure",
 
   "design.czmod.arcane_paradox_design": "Arcane Paradox Design",
+  "design.czmod.arcane_paradox_design.desc": "Apply to Swords",
   "design.czmod.arcane_paradox_design.arcane_paradox_sword": "Arcane Paradox Design",
+
   "design.czmod.void_king_design": "Void King Design",
+  "design.czmod.void_king_design.desc": "Apply to Swords",
   "design.czmod.void_king_design.void_king_sword": "Blade of the Void King",
+
   "design.czmod.dragon_age_design": "Dragon Age Design",
+  "design.czmod.dragon_age_design.desc": "Apply to Swords",
   "design.czmod.dragon_age_design.dragon_age_sword": "Dragon Age Blade",
+
   "design.czmod.infused_hellbound_design": "Infused Hellbound Design",
+  "design.czmod.infused_hellbound_design.desc": "Apply to Swords",
   "design.czmod.infused_hellbound_design.infused_hellbound_sword": "Infused Hellbound Blade",
+
   "design.czmod.moonswift_design": "Moon Swift Design",
+  "design.czmod.moonswift_design.desc": "Apply to Swords",
   "design.czmod.moonswift_design.moonswift_sword": "Moon Swift Blade",
 
   "design.czmod.nexus_design": "Nexus Design",
+  "design.czmod.nexus_design.desc": "Apply to: Sword, Pickaxe, Axe, Shovel, Hoe, Spear, Mace and Shield\n\nArmour Designs Coming Soon ",
   "design.czmod.nexus_design.nexus_sword": "Nexus Sword",
-  "design.czmod.nexus_design.nexus_pickaxe": "Nexus Pickaxe"
+  "design.czmod.nexus_design.nexus_pickaxe": "Nexus Pickaxe",
+  "design.czmod.nexus_design.nexus_axe": "Nexus Axe",
+  "design.czmod.nexus_design.nexus_shovel": "Nexus Shovel",
+  "design.czmod.nexus_design.nexus_hoe": "Nexus Hoe",
+  "design.czmod.nexus_design.nexus_spear": "Nexus Spear",
+  "design.czmod.nexus_design.nexus_mace": "Nexus Mace",
+  "design.czmod.nexus_design.nexus_trident": "Nexus Trident",
+  "design.czmod.nexus_design.nexus_shield": "Nexus Shield",
+
+  "design.czmod.carnivorous_design": "Carnivorous Design",
+  "design.czmod.carnivorous_design.desc": "Apply to: Sword, Pickaxe, Axe, Shovel, Hoe, Spear, Mace, Shield \n\n Free Rewards",
+  "design.czmod.carnivorous_design.carnivorous_sword": "Carnivorous Sword",
+  "design.czmod.carnivorous_design.carnivorous_pickaxe": "Carnivorous Pickaxe",
+  "design.czmod.carnivorous_design.carnivorous_axe": "Carnivorous Axe",
+  "design.czmod.carnivorous_design.carnivorous_shovel": "Carnivorous Shovel",
+  "design.czmod.carnivorous_design.carnivorous_hoe": "Carnivorous Hoe",
+  "design.czmod.carnivorous_design.carnivorous_mace": "Carnivorous Mace",
+  "design.czmod.carnivorous_design.carnivorous_shield": "Carnivorous Shield",
+  "design.czmod.carnivorous_design.carnivorous_spear": "Carnivorous Spear",
+
+  "design.czmod.purple_world_design": "Purple World Design",
+  "design.czmod.purple_world_design.desc": "Apply to: Sword, Pickaxe, Axe, Shovel, Hoe, Spear \n\nFree Rewards",
+  "design.czmod.purple_world_design.purple_world_sword": "Purple World Sword",
+  "design.czmod.purple_world_design.purple_world_pickaxe": "Purple World Pickaxe",
+  "design.czmod.purple_world_design.purple_world_axe": "Purple World Axe",
+  "design.czmod.purple_world_design.purple_world_shovel": "Purple World Shovel",
+  "design.czmod.purple_world_design.purple_world_hoe": "Purple World Hoe",
+  "design.czmod.purple_world_design.purple_world_spear": "Purple World Spear",
+
+  "design.czmod.ruby_design": "Ruby Design",
+  "design.czmod.ruby_design.desc": "Apply to: Sword, Axe, Spear \n\nFree Rewards",
+  "design.czmod.ruby_design.ruby_sword": "Ruby Sword",
+  "design.czmod.ruby_design.ruby_axe": "Ruby Axe",
+  "design.czmod.ruby_design.ruby_spear": "Ruby Spear",
+
+  "design.czmod.dark_queen_design": "Dark Queen Design",
+  "design.czmod.dark_queen_design.desc": "Apply to: Sword, Axe, Spear \n\nFree Rewards",
+  "design.czmod.dark_queen_design.dark_queen_sword": "Dark Queen Sword",
+  "design.czmod.dark_queen_design.dark_queen_axe": "Dark Queen Axe",
+  "design.czmod.dark_queen_design.dark_queen_spear": "Dark Queen Spear"
 }

@@ -1,6 +1,7 @@
 package org.OlliesBrother.CzMod.item;
 
 import com.cobblemon.mod.common.api.pokemon.stats.Stats;
+import net.fabricmc.fabric.api.item.v1.FabricItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -51,9 +52,27 @@ public class CzItems {
             "shinifier",
             new ShinyToggleItem(new Item.Settings().maxCount(64))
     );
+
+    public static final Item AXO_CRATE = register("axo_crate",
+            new Item(new Item.Settings().maxCount(1)));
+
+    public static final Item LEFT_ARROW = register("left_arrow",
+            new Item(new Item.Settings().maxCount(1)));
+
+    public static final Item RIGHT_ARROW = register("right_arrow",
+            new Item(new Item.Settings().maxCount(1)));
+
+    public static final Item NEXUS_KEY = register("nexus_key",
+            new Item(new Item.Settings().maxCount(64)));
+
+    public static final Item CARNIVOROUS_KEY = register("carnivorous_key",
+            new Item(new Item.Settings().maxCount(64)));
+
     private static Item register(String id, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(CzMod.MOD_ID, id), item);
     }
-    public static void init() {}
+    public static void registerModItems() {
+        CzMod.LOGGER.info("Registering Mod Items for " + CzMod.MOD_ID);
+    }
 
 }

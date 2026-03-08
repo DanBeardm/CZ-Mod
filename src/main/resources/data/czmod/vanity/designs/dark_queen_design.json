@@ -1,0 +1,30 @@
+{
+  "model": "czmod:dark_queen/dark_queen_design",
+  "type": "sellable",
+  "styles": {
+    "dark_queen_sword": [
+      {
+        "tag": "minecraft:swords",
+        "assets": {
+          "default": "czmod:dark_queen/tools/sword"
+        }
+      }
+    ],
+    "dark_queen_axe": [
+      {
+        "tag": "minecraft:axes",
+        "assets": {
+          "default": "czmod:dark_queen/tools/axe"
+        }
+      }
+    ],
+    "dark_queen_spear": [
+      {
+        "tag": "minecraft:spears",
+        "assets": {
+          "default": "czmod:dark_queen/tools/spear"
+        }
+      }
+    ]
+  }
+}

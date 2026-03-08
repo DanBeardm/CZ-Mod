@@ -1,13 +1,11 @@
 package org.OlliesBrother.CzMod.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.ItemGroups;
+import net.minecraft.item.*;
 import org.OlliesBrother.CzMod.CzMod;
 
 import net.minecraft.block.Block;
 import net.minecraft.block.AbstractBlock;
-import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
@@ -17,24 +15,21 @@ import org.OlliesBrother.CzMod.block.figures.FigureBlock;
 
 public final class CzBlocks {
 
-    public static final Block ELEVATOR = Registry.register(
-            Registries.BLOCK,
-            Identifier.of(CzMod.MOD_ID, "elevator"),
+    public static final Block ELEVATOR = registerBlock("elevator",
             new ElevatorBlock(AbstractBlock.Settings.create()
-                    .strength(2.0f)
+                    .strength(1.3f)
                     .sounds(BlockSoundGroup.METAL)
-                    .requiresTool())
+            ));
+
+    public static final Block OLLIESBROTHER_FIGURE = registerBlock("olliesbrother_figure",
+            new FigureBlock(AbstractBlock.Settings.create()
+                    .nonOpaque()
+                    .strength(0.3f)
+                    .sounds(BlockSoundGroup.WOOL)
+                    .noBlockBreakParticles()
+
+            )
     );
-
-    public static final Item ELEVATOR_ITEM = Registry.register(
-            Registries.ITEM,
-            Identifier.of(CzMod.MOD_ID, "elevator"),
-            new BlockItem(ELEVATOR, new Item.Settings())
-    );
-
-    public static final Block FIGURE = registerBlock("olliesbrother_figure",
-            new FigureBlock(AbstractBlock.Settings.create().nonOpaque()));
-
 
     private static Block registerBlockWithoutBlockItem(String name, Block block) {
         return Registry.register(Registries.BLOCK, Identifier.of(CzMod.MOD_ID, name), block);
@@ -53,9 +48,10 @@ public final class CzBlocks {
     public static void registerModBlocks() {
         CzMod.LOGGER.info("Registering Mod Blocks for " + CzMod.MOD_ID);
 
-        //ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-
-        //});
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
+            entries.add(CzBlocks.ELEVATOR);
+            entries.add(CzBlocks.OLLIESBROTHER_FIGURE);
+        });
     }
 
 }

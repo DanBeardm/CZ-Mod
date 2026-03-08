@@ -9,6 +9,6 @@ public class CzModClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        BlockRenderLayerMap.INSTANCE.putBlock(CzBlocks.FIGURE, RenderLayer.getCutout());
+        BlockRenderLayerMap.INSTANCE.putBlock(CzBlocks.OLLIESBROTHER_FIGURE, RenderLayer.getCutout());
     }
 }

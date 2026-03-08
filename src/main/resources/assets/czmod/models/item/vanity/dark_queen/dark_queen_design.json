@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "czmod:item/dark_queen/dark_queen_design"
+  }
+}

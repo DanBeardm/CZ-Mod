@@ -4,8 +4,8 @@
 	"texture_size": [8, 8],
 	"textures": {
 		"0": "czmod:block/figures/boxes/nm_figure_box_dark_blue",
-		"1": "czmod:block/figures/nm_figure_logo_texture",
-		"2": "czmod:block/figures/nm_figure_you_1",
+		"1": "czmod:block/figures/logos/olliesbrother_logo",
+		"2": "czmod:block/figures/side_figure/olliesbrother_figure",
 		"3": "czmod:block/figures/eyes/nm_figure_eyes_light_green",
 		"4": "czmod:block/figures/player/olliesbrother",
 		"particle": "czmod:block/figures/boxes/nm_figure_box_dark_blue"

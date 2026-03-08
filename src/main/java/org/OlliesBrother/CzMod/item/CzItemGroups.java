@@ -38,27 +38,27 @@ public final class CzItemGroups {
                         // Shinifier
                         entries.add(CzItems.SHINIFIER);
 
-                        entries.add(CzBlocks.ELEVATOR_ITEM);
-                        entries.add(CzBlocks.FIGURE);
+                        entries.add(CzBlocks.ELEVATOR);
+                        entries.add(CzItems.AXO_CRATE);
+                        entries.add(CzItems.NEXUS_KEY);
+                        entries.add(CzItems.CARNIVOROUS_KEY);
                     })
                     .build()
     );
 
-    //public static final ItemGroup CZ_FIGURES = Registry.register(
-//Registries.ITEM_GROUP,
-      //      Identifier.of(CzMod.MOD_ID, "cz_figures"),
-      //      FabricItemGroup.builder()
-      //              .displayName(Text.translatable("itemGroup.czmod.cz_figures"))
-      //              .icon(() -> new ItemStack(CzBlocks.OLLIESBROTHER_FIGURE))
-      //              .entries((displayContext, entries) -> {
-       //                 entries.add(CzBlocks.OLLIESBROTHER_FIGURE);
-//})
-     //               .build()
-    //);
+    public static final ItemGroup CZ_FIGURES = Registry.register(Registries.ITEM_GROUP,
+            Identifier.of(CzMod.MOD_ID, "cz_figures"),
+            FabricItemGroup.builder()
+                    .displayName(Text.translatable("itemGroup.czmod.cz_figures"))
+                    .icon(() -> new ItemStack(CzBlocks.OLLIESBROTHER_FIGURE))
+                    .entries((context, entries) -> {
+                        entries.add(CzBlocks.OLLIESBROTHER_FIGURE);
+                    })
+                    .build()
+            );
 
-    public static void init() {
-        // just forces class load
+    public static void registerItemGroups() {
+        CzMod.LOGGER.info("Registering Item Groups for " + CzMod.MOD_ID);
     }
 
-    private CzItemGroups() {}
 }

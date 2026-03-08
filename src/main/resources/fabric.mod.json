@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "czmod",
   "version": "${version}",
-  "name": "CZ-Mod",
+  "name": "CobbleZero Mod",
   "description": "Custom Mod Adding Items exclusive to CobbleZero",
   "authors": [],
   "contact": {},

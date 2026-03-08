@@ -14,8 +14,8 @@ public class CzMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        CzItems.init();
-        CzItemGroups.init();
+        CzItems.registerModItems();
+        CzItemGroups.registerItemGroups();
         CzBlocks.registerModBlocks();
         CzDataComponentTypes.registerDataComponentTypes();
 

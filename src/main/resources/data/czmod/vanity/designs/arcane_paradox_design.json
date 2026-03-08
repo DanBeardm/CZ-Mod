@@ -4,25 +4,7 @@
   "styles": {
     "arcane_paradox_sword": [
       {
-        "item": "minecraft:iron_sword",
-        "assets": {
-          "default": "czmod:arcane_paradox/arcane_paradox_great_sword"
-        }
-      },
-      {
-        "item": "minecraft:golden_sword",
-        "assets": {
-          "default": "czmod:arcane_paradox/arcane_paradox_great_sword"
-        }
-      },
-      {
-        "item": "minecraft:diamond_sword",
-        "assets": {
-          "default": "czmod:arcane_paradox/arcane_paradox_great_sword"
-        }
-      },
-      {
-        "item": "minecraft:netherite_sword",
+        "tag": "minecraft:swords",
         "assets": {
           "default": "czmod:arcane_paradox/arcane_paradox_great_sword"
         }

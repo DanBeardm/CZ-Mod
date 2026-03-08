@@ -1,0 +1,30 @@
+{
+  "model": "czmod:ruby/ruby_design",
+  "type": "sellable",
+  "styles": {
+    "ruby_sword": [
+      {
+        "tag": "minecraft:swords",
+        "assets": {
+          "default": "czmod:ruby/tools/sword"
+        }
+      }
+    ],
+    "ruby_axe": [
+      {
+        "tag": "minecraft:axes",
+        "assets": {
+          "default": "czmod:ruby/tools/axe"
+        }
+      }
+    ],
+    "ruby_spear": [
+      {
+        "tag": "minecraft:spears",
+        "assets": {
+          "default": "czmod:ruby/tools/spear"
+        }
+      }
+    ]
+  }
+}

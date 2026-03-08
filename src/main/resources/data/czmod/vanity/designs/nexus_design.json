@@ -65,6 +65,14 @@
           "default": "czmod:nexus/tools/trident"
         }
       }
+    ],
+    "nexus_shield": [
+      {
+        "item": "minecraft:shield",
+        "assets": {
+          "default": "czmod:nexus/tools/shield"
+        }
+      }
     ]
   }
 }

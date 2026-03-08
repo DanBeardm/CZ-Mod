@@ -4,25 +4,7 @@
   "styles": {
     "infused_hellbound_sword": [
       {
-        "item": "minecraft:iron_sword",
-        "assets": {
-          "default": "czmod:infused_hellbound/infused_hellbound_blade"
-        }
-      },
-      {
-        "item": "minecraft:golden_sword",
-        "assets": {
-          "default": "czmod:infused_hellbound/infused_hellbound_blade"
-        }
-      },
-      {
-        "item": "minecraft:diamond_sword",
-        "assets": {
-          "default": "czmod:infused_hellbound/infused_hellbound_blade"
-        }
-      },
-      {
-        "item": "minecraft:netherite_sword",
+        "tag": "minecraft:swords",
         "assets": {
           "default": "czmod:infused_hellbound/infused_hellbound_blade"
         }

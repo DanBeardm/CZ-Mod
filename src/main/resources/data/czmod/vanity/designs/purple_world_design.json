@@ -1,0 +1,54 @@
+{
+  "model": "czmod:purple_world/purple_world_design",
+  "type": "sellable",
+  "styles": {
+    "purple_world_sword": [
+      {
+        "tag": "minecraft:swords",
+        "assets": {
+          "default": "czmod:purple_world/tools/sword"
+        }
+      }
+    ],
+    "purple_world_axe": [
+      {
+        "tag": "minecraft:axes",
+        "assets": {
+          "default": "czmod:purple_world/tools/axe"
+        }
+      }
+    ],
+    "purple_world_pickaxe": [
+      {
+        "tag": "minecraft:pickaxes",
+        "assets": {
+          "default": "czmod:purple_world/tools/pickaxe"
+        }
+      }
+    ],
+    "purple_world_shovel": [
+      {
+        "tag": "minecraft:shovels",
+        "assets": {
+          "default": "czmod:purple_world/tools/shovel"
+        }
+      }
+    ],
+    "purple_world_hoe": [
+      {
+        "tag": "minecraft:hoes",
+        "assets": {
+          "default": "czmod:purple_world/tools/hoe"
+        }
+      }
+    ],
+    "purple_world_spear": [
+      {
+        "tag": "minecraft:spears",
+        "assets": {
+          "default": "czmod:purple_world/tools/battleaxe"
+        }
+      }
+    ]
+  }
+}

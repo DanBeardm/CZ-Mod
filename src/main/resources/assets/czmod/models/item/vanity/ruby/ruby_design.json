@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "czmod:item/ruby/ruby_design"
+  }
+}
+

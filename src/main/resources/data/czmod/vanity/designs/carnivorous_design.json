@@ -1,0 +1,70 @@
+{
+  "model": "czmod:carnivorous/carnivorous_design",
+  "type": "sellable",
+  "styles": {
+    "carnivorous_sword": [
+      {
+        "tag": "minecraft:swords",
+        "assets": {
+          "default": "czmod:carnivorous/tools/sword"
+        }
+      }
+    ],
+    "carnivorous_pickaxe": [
+      {
+        "tag": "minecraft:pickaxes",
+        "assets": {
+          "default": "czmod:carnivorous/tools/pickaxe"
+        }
+      }
+    ],
+    "carnivorous_axe": [
+      {
+        "tag": "minecraft:axes",
+        "assets": {
+          "default": "czmod:carnivorous/tools/axe"
+        }
+      }
+    ],
+    "carnivorous_shovel": [
+      {
+        "tag": "minecraft:shovels",
+        "assets": {
+          "default": "czmod:carnivorous/tools/shovel"
+        }
+      }
+    ],
+    "carnivorous_hoe": [
+      {
+        "tag": "minecraft:hoes",
+        "assets": {
+          "default": "czmod:carnivorous/tools/hoe"
+        }
+      }
+    ],
+    "carnivorous_spear": [
+      {
+        "tag": "minecraft:spears",
+        "assets": {
+          "default": "czmod:carnivorous/tools/spear"
+        }
+      }
+    ],
+    "carnivorous_shield": [
+      {
+        "item": "minecraft:shield",
+        "assets": {
+          "default": "czmod:carnivorous/tools/shield"
+        }
+      }
+    ],
+    "carnivorous_mace": [
+      {
+        "item": "minecraft:mace",
+        "assets": {
+          "default": "czmod:carnivorous/tools/hammer"
+        }
+      }
+    ]
+  }
+}
